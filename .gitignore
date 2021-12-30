@@ -59,18 +59,27 @@ captures/
 .externalNativeBuild
 .cxx/
 
-# chrome Services (e.g. APIs or Firebase)
-# chrome-services.json
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
 
 # Freeline
 freeline.py
-
-
-#freeline.py
-
 freeline/
 freeline_project_description.json
 
 # fastlane
 fastlane/report.xml
-fastl
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
